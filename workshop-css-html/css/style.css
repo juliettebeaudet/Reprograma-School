@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Red Hat Text', sans-serif;
+    margin: 0;
+}
+
+/* CAPA */
+
+.capa{
+    background: url(../imagens/Jufoto.jpg);
+    background-size: cover;
+    height: 84vh;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+@media (max-width: 420px) {
+    .capa {
+        height: 27vh;
+        text-align: center;
+        padding-top: 0.5rem;   
+    }
+}
+
+@media (max-width: 375px) {
+    .capa {
+        height: 27vh;
+        text-align: center;
+        padding-top: 0.5rem;   
+    }
+}
+
+.capa_titulo{
+    font-size: 42px;
+    color: brown;
+    margin: 4rem;
+}
+
+@media (max-width: 420px) {
+    .capa_titulo {
+        font-size: 25px;
+        margin: 2rem;
+    }
+}
+
+.capa_subtitulo{
+    font-size: 30px;
+    color: brown;
+    margin: 2rem 0rem;
+}
+
+@media (max-width: 420px) {
+    .capa_subtitulo {
+        display: none;
+    }
+}
+
+.botao_capa{
+    border-radius: 2rem;
+    background-color: white;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+@media (max-width: 420px) {
+    .botao_capa {
+        display: none;
+    }
+}
+
+
+.infospessoais{
+    display: flex;
+    width: 80%;
+    align-content: center;
+}
+
+@media (max-width: 420px) {
+    .infospessoais {
+        width: 95%;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 600px) {
+    .infospessoais {
+        width: 95%;
+    }
+}
+
+@media (max-width: 375px) {
+    .infospessoais {
+        width: 95%;
+        display: block;
+    }
+}
+
+
+
+.info_esquerda{
+width: 40%;
+margin: 40px;
+}
+
+@media (max-width: 420px) {
+.info_esquerda{
+    width: 90%;
+    margin: 40px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 600px) {
+    .info_esquerda{
+        width: 50%;
+        margin: 40px;
+        }
+    }
+    
+@media (max-width: 375px) {
+        .info_esquerda{
+            width: 90%;
+            margin: 40px;
+            }
+        }
+
+.sobre_mim{
+    font-size: 30px;
+    margin: 30px;
+    color: grey;
+}
+
+@media (max-width: 420px) {
+    .sobre_mim {
+        font-size: 20px;
+        margin: 11px;
+    }
+}
+
+@media (max-width: 375px) {
+    .sobre_mim {
+        font-size: 20px;
+        margin: 11px;
+    }
+}
+
+.paragrafo1{
+    font-size: 24px;
+    margin: 30px;
+}
+
+@media (max-width: 420px) {
+    .paragrafo1 {
+        font-size: 17px;
+        margin: 11px;
+    }
+}
+
+.paragrafo2{
+    font-size: 18px;
+    margin: 30px;
+}
+
+@media (max-width: 420px) {
+    .paragrafo2 {
+        font-size: 15px;
+        margin: 11px;
+    }
+}
+
+.botao_cv{
+    border-radius: 3rem;
+    border: brown solid 6px;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: brown;
+    margin: 30px;
+}
+
+@media (max-width: 420px) {
+    .botao_cv {
+        border: brown solid 2px;
+        padding: 0rem 1rem;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 375px) {
+    .botao_cv {
+        margin: 0px;
+    }
+}
+
+.info_direita{
+    width: 40%;
+    margin: 40px;
+    margin: 0 auto;
+}
+
+@media (max-width: 420px) {
+    .info_direita {
+        width: 90%;
+        margin: 40px;
+        }
+    }
+
+@media (max-width: 375px) {
+    .info_direita {
+        width: 90%;
+        margin: 40px;
+        }
+    }
+
+.habilidades{
+    font-size: 30px;
+    margin: 40px;
+    padding-top: 2rem;
+    color: grey;
+}
+
+@media (max-width: 420px) {
+    .habilidades {
+        font-size: 20px;
+        margin: 20px;  
+    }
+}
+
+@media (max-width: 375px) {
+    .habilidades {
+        font-size: 20px;
+        margin: 20px;  
+    }
+}
+
+
+ul{
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 420px) {
+    ul {
+        padding-left: 0.5rem;
+        font-size: 15px;
+    }
+}
+
+li{
+    line-height: 1rem;
+    margin: 30px;
+}
+
+@media (max-width: 375px) {
+    li {
+    line-height: 0rem; }
+}
+
+@media (max-width: 420px) {
+    li {
+    line-height: 0rem; }
+}
+
+
+.redessociais{
+    text-align: center;
+    margin: 40px;
+
+}
+
+.quadradinho{
+    display: inline-block;
+    background-color: brown;
+    width: 14%;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+@media (max-width: 420px) {
+    .quadradinho {
+        width: 26%;
+        padding: 0rem;
+        margin: 0rem;
+
+    }
+}
+
+@media (max-width: 768px) and (min-width: 600px) {
+    .quadradinho {
+        width: 19%;
+        padding: 0rem;
+        margin: 0rem;
+
+    }
+}
+
+@media (max-width: 375px) {
+    .quadradinho {
+        width: 30%;
+        padding: 0rem;
+        margin: 0rem;
+
+    }
+}
+
+
+img{
+    height: 50px;
+    margin: 15px;
+}
+
+
+h5{
+    margin-top: 0rem;
+    padding: 1rem;
+}
+
+footer{
+    color:gray;
+    font-size: 15px;
+    margin: 3rem;
+    text-align: center;
+}
+
+@media (max-width: 420px) {
+    footer {
+        font-size: 10px;
+        margin: 0rem;
+    }
+}
