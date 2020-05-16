@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // receber o mês de nascimento com base nisso 
+        // vamos dizer qual o signo dela
+        /*
+        Áries: março
+        Touro: abril
+        Gêmeos: maio
+        Câncer: jun
+        Leão: jul
+        Virgem: agos
+        Libra: set
+        Escorpião: out
+        Sagitário: nov
+        Capricórnio: dez
+        Aquário: jan
+        Peixes: fevereiro
+        */
+
+        // toLowerCase() - converte uma string pra minuscula
+        let mesDeNascimento = prompt("Digite o mês do seu nascimento").toLowerCase()
+        console.log(mesDeNascimento)
+
+        switch(mesDeNascimento){
+            case "janeiro":
+                alert("Seu signo é Aquário");
+                break;
+            case "fevereiro":
+                alert("Seu signo é Peixe");
+                break;
+            case "março":
+                alert("Seu signo é Áries");
+                break;
+            default:
+                alert("Sei lá");
+        }
+
+
+
+    </script>
+</body>
+</html>
